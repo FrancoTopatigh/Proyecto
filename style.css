@@ -86,6 +86,15 @@ p a{
     text-decoration: none;
 }
 
+
+.form-contact{
+    background-image: linear-gradient(to left,#759eff,white, #759eff, white, #759eff);
+    border: 1px solid black;
+    color: black;
+    padding: 6px;
+    cursor: pointer;
+}
+
 /* Llamamos a los href del footer para estilizarlos */
 footer a{
     text-decoration: none;
