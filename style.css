@@ -93,6 +93,7 @@ p a{
     color: black;
     padding: 6px;
     cursor: pointer;
+    transform: skewY(20deg);
 }
 
 /* Llamamos a los href del footer para estilizarlos */
