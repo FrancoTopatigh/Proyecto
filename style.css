@@ -10,17 +10,35 @@ body{
     line-height: 1.8;
 }
 
+/* BOOTSTRAP */
+
+.navbar-brand{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+li a:hover{
+    background-color: #759eff;
+}
+
+
 /* Llamamos a los href para estilizarlos */
-nav a{
+/* nav a{
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
-}
+} */
 
 
 /* Ubicamos la nav-bar de forma más estilizada */
 
-ul {
+/* ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -55,7 +73,7 @@ header{
     background-color: black;
     color: white;
     font-size: 15px;
-}
+} 
 
 
 h1{
@@ -69,10 +87,12 @@ h2{
     background-color: #759eff;
     padding: 15px;
     border: 20px;
+    font-weight: bold;
 }
-h3{
-    font-family: 'PT Sans', sans-serif;;
+.h3-galeria{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-size: 20px;
 }
 
 p{
@@ -349,6 +369,7 @@ td{
         margin-left: 12%;
         margin-right: 12%;
         font-size: 12px;
+        line-height: 2.3;
     }
 
     .index-img{
@@ -425,7 +446,7 @@ td{
 
     /* GALERIA */
 
-    h3{
+    .h3-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
@@ -536,6 +557,7 @@ td{
         margin-left: 12%;
         margin-right: 12%;
         font-size: 13px;
+        line-height: 2.3;
     }
 
     .index-img{
@@ -612,11 +634,11 @@ td{
 
     /* GALERÍA */
 
-    h3{
+    .h3-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .parrafo-galeria{
@@ -716,7 +738,7 @@ td{
         margin-left: 12%;
         margin-right: 12%;
         font-size: 15px;
-        line-height: 1.6;
+        line-height: 2;
     }
 
     .index-img{
@@ -793,11 +815,11 @@ td{
 
     /* GALERÍA */
 
-    h3{
+    .h3-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .parrafo-galeria{
@@ -925,30 +947,30 @@ td{
     }
 
     .album-1{
-        margin-left: 16%;
-        width: 30%;
-        height: 30%;
+        margin-left: 22%;
+        width: 28%;
+        height: 26%;
         margin-right: 30px;
     }
 
     .album-2{
         margin-right: 18%;
-        width: 30%;
-        height: 30%;
+        width: 28%;
+        height: 26%;
         margin-left: 20px;
     }
 
     .album-3{
-        margin-left: 16%;
-        width: 30%;
-        height: 30%;
+        margin-left: 22%;
+        width: 28%;
+        height: 26%;
         margin-right: 30px;
     }
 
     .album-4{
         margin-right: 18%;
-        width: 30%;
-        height: 30%;
+        width: 28%;
+        height: 26%;
         margin-left: 20px;
     }
 
@@ -976,7 +998,7 @@ td{
 
     /* GALERÍA */
 
-    h3{
+    .h3-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
