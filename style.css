@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 body{
@@ -15,6 +16,7 @@ body{
 .navbar-brand{
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -290,6 +292,13 @@ h3{
     margin-bottom: 20px;
 }
 
+.h3-form{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
 input, textarea {
     width: 100%;
     margin-bottom: 20px;
@@ -341,6 +350,12 @@ td{
 }
 
 
+
+
+
+
+
+
 /* HACEMOS RESPONSIVE EL SITIO */
 
 
@@ -358,9 +373,10 @@ td{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 16px;
         padding: 10px;
         border: 0px;
+        color: black;
     }
 
     .parrafo-1{
@@ -373,7 +389,7 @@ td{
     }
 
     .index-img{
-        width: 90%;
+        width: 85%;
         height: 90%;
     }
 
@@ -450,14 +466,15 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 12px;
+        font-size: 14px;
+        text-decoration: underline;
     }
 
     .parrafo-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .galeria-img-1{
@@ -515,9 +532,14 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 12px;
+        font-size: 14px;
     }
     
+
+    .h3-form{
+        font-size: 14px;
+    }
+
     form{
         width: 90%;
         font-size: 12px;
@@ -546,9 +568,10 @@ td{
     }
 
     h2{
-        font-size: 15px;
+        font-size: 16px;
         padding: 10px;
         border: 0px;
+        color: black;
     }
 
     .parrafo-1{
@@ -556,7 +579,7 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 2.3;
     }
 
@@ -616,7 +639,7 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .tabla{
@@ -624,12 +647,12 @@ td{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        width: 90%;
+        width: 80%;
     }
 
     .nominaciones-vid{
         margin-bottom: 40px;
-        width: 50%;
+        width: 80%;
     }
 
     /* GALERÍA */
@@ -639,13 +662,14 @@ td{
         margin-left: 12%;
         margin-right: 12%;
         font-size: 16px;
+        text-decoration: underline;
     }
 
     .parrafo-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .galeria-img-1{
@@ -694,6 +718,7 @@ td{
         display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 80%;
     }
 
     /* CONTACTO */
@@ -702,7 +727,12 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 13px;
+        font-size: 16px;
+    }
+
+
+    .h3-form{
+        font-size: 16px;
     }
 
     .form{
@@ -727,9 +757,10 @@ td{
     }
 
     h2{
-        font-size: 17px;
+        font-size: 18px;
         padding: 10px;
         border: 0px;
+        color: black;
     }
 
     .parrafo-1{
@@ -737,7 +768,7 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 2;
     }
 
@@ -760,7 +791,7 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .album-1{
@@ -797,7 +828,7 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .tabla{
@@ -805,12 +836,12 @@ td{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        width: 90%;
+        width: 80%;
     }
 
     .nominaciones-vid{
         margin-bottom: 40px;
-        width: 60%;
+        width: 80%;
     }
 
     /* GALERÍA */
@@ -820,52 +851,53 @@ td{
         margin-left: 12%;
         margin-right: 12%;
         font-size: 18px;
+        text-decoration: underline;
     }
 
     .parrafo-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .galeria-img-1{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .galeria-img-2{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .galeria-img-3{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .galeria-img-4{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .galeria-img-5{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
     }
 
     .galeria-img-6{
-        width: 90%;
+        width: 80%;
         height: 90%;
         margin-left: auto;
         margin-right: auto;
@@ -875,7 +907,8 @@ td{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        
+        margin-bottom: 40px;
+        width: 80%;
     }
 
     /* CONTACTO */
@@ -884,12 +917,16 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 15px;
+        font-size: 16px;
+    }
+
+    .h3-form{
+        font-size: 16px;
     }
 
     form{
         width: 50%;
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -910,9 +947,10 @@ td{
     }
 
     h2{
-        font-size: 19px;
+        font-size: 21px;
         padding: 10px;
         border: 0px;
+        color: black;
     }
 
     .parrafo-1{
@@ -920,21 +958,23 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 18px;
-        line-height: 1.8;
+        font-size: 17px;
+        line-height: 2.2;
     }
 
     .index-img{
-        width: 50%;
-        height: 50%;
+        width: 60%;
+        height: 60%;
     }
 
     .form-contact{
         font-size: 16px;
+        margin-top: 16px;
+        margin-bottom: 50px;
     }
 
     #footer{
-        font-size: 18px;
+        font-size: 17px;
     }
 
     /* DISCOGRAFÍA */
@@ -943,34 +983,34 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .album-1{
-        margin-left: 22%;
-        width: 28%;
-        height: 26%;
-        margin-right: 30px;
+        margin-left: 14%;
+        width: 32%;
+        height: 32%;
+        margin-right: 20px;
     }
 
     .album-2{
-        margin-right: 18%;
-        width: 28%;
-        height: 26%;
+        margin-right: 14%;
+        width: 32%;
+        height: 32%;
         margin-left: 20px;
     }
 
     .album-3{
-        margin-left: 22%;
-        width: 28%;
-        height: 26%;
-        margin-right: 30px;
+        margin-left: 14%;
+        width: 32%;
+        height: 32%;
+        margin-right: 20px;
     }
 
     .album-4{
-        margin-right: 18%;
-        width: 28%;
-        height: 26%;
+        margin-right: 14%;
+        width: 32%;
+        height: 32%;
         margin-left: 20px;
     }
 
@@ -980,7 +1020,7 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 18px;
+        font-size: 17px;
     }
 
     .tabla{
@@ -988,7 +1028,8 @@ td{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
-        width: 80%;
+        font-size: 17px;
+        width: 55%;
     }
 
     .nominaciones-vid{
@@ -1004,13 +1045,14 @@ td{
         margin-right: 12%;
         font-size: 18px;
         margin-bottom: 20px;
+        text-decoration: underline;
     }
 
     .parrafo-galeria{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .galeria-img-1{
@@ -1060,6 +1102,7 @@ td{
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 40px;
+        width: 40%;
     }
 
     /* CONTACTO */
@@ -1068,7 +1111,11 @@ td{
         text-align: center;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 18px;
+        font-size: 17px;
+    }
+
+    .h3-form{
+        font-size: 17px;
     }
 
 }
