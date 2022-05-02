@@ -227,6 +227,16 @@ footer a{
     margin-top: 15px;
 }
 
+
+/* ICONOS FOOTER */
+.social-icon{
+    color: white;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
 /* Llamamos y damos forma a nuestro FORMULARIO */
 .form{
     margin: 20px 50px 30px 50px;
@@ -958,13 +968,13 @@ td{
         text-align: justify;
         margin-left: 12%;
         margin-right: 12%;
-        font-size: 17px;
+        font-size: 16px;
         line-height: 2.2;
     }
 
     .index-img{
-        width: 60%;
-        height: 60%;
+        width: 50%;
+        height: 50%;
     }
 
     .form-contact{
