@@ -89,7 +89,8 @@ footer a{
     margin-right: auto;
     margin-top: 30px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 650px;
+    height: 350px;
 }
 
 /* Centramos videos de NOMINACIONES Y GALERIA */
@@ -101,6 +102,8 @@ footer a{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 50%;
+    width: 560px;
+    height: 315px;
 }
 
 .galeria-vid{
@@ -109,6 +112,8 @@ footer a{
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 560px;
+    height: 345px;
 }
 
 /* Fotos dentro de Galeria */
@@ -228,22 +233,30 @@ footer a{
     margin-right: 10%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 380px;
 }
 
 .album-play-2{
     margin-right: 10%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 380px;
 }
 .album-play-3{
     margin-right: 10%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 380px;
 }
 .album-play-4{
     margin-right: 10%;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    height: 380px;
 }
 
 form{
