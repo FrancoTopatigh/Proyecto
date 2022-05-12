@@ -429,7 +429,19 @@ textarea {
     form {
     width: 90%;
     font-size: 12px;
+    
+    #boton, #reset1{
+        background-color: $celeste;
+        border: $border;
+        color: $bg-color;
+        padding: 10px;
+        cursor: pointer;
     }
+
+    #reset1:hover{
+        cursor: pointer;
+    }
+}
 }
 
   /* VISTA TABLET PEQUEÑAS */

@@ -3,9 +3,10 @@
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: black; }
 
-#reset {
+#reset1 {
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
@@ -16,9 +17,10 @@
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: black; }
 
-#reset {
+#reset1 {
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
@@ -29,9 +31,10 @@
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: black; }
 
-#reset {
+#reset1 {
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
@@ -341,7 +344,15 @@ textarea {
     font-size: 14px; }
   form {
     width: 90%;
-    font-size: 12px; } }
+    font-size: 12px; }
+    form #boton, form #reset1 {
+      background-color: #759eff;
+      border: 1px solid black;
+      color: black;
+      padding: 10px;
+      cursor: pointer; }
+    form #reset1:hover {
+      cursor: pointer; } }
 
 /* VISTA TABLET PEQUEÑAS */
 @media only screen and (min-width: 600px) and (max-width: 768px) {
