@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* BOTONES FORMULARIO */
 #boton {
   background-color: #759eff;
   border: 1px solid black;
@@ -10,19 +9,8 @@
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
-  cursor: pointer; }
-
-#boton {
-  background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer; }
-
-#reset {
-  background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  color: black; }
 
 #boton {
   background-color: #759eff;
@@ -34,7 +22,21 @@
   background-color: #759eff;
   border: 1px solid black;
   padding: 10px;
+  cursor: pointer;
+  color: black; }
+
+#boton {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
   cursor: pointer; }
+
+#reset {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer;
+  color: black; }
 
 /* Reestablecemos valores CSS desde el inicio */
 * {
