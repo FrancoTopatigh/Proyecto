@@ -1,4 +1,41 @@
 @charset "UTF-8";
+/* BOTONES FORMULARIO */
+#boton {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
+#reset {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
+#boton {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
+#reset {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
+#boton {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
+#reset {
+  background-color: #759eff;
+  border: 1px solid black;
+  padding: 10px;
+  cursor: pointer; }
+
 /* Reestablecemos valores CSS desde el inicio */
 * {
   box-sizing: border-box;
@@ -9,6 +46,17 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.8; }
+  body h1 {
+    font-family: verdana;
+    background-color: black;
+    color: white; }
+  body h2 {
+    font-family: verdana;
+    text-align: center;
+    background-color: #759eff;
+    padding: 15px;
+    border: 20px;
+    font-weight: bold; }
 
 /* BOOTSTRAP */
 .navbar-brand {
@@ -19,35 +67,20 @@ body {
 #header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px; }
-
-li a:hover {
-  background-color: #759eff; }
-
-header {
-  background-color: black;
-  color: white;
-  font-size: 15px; }
-
-h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: black;
-  color: white; }
-
-h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align: center;
-  background-color: #759eff;
-  padding: 15px;
-  border: 20px;
-  font-weight: bold; }
+  #header li a:hover {
+    background-color: #759eff; }
+  #header header {
+    background-color: black;
+    color: white;
+    font-size: 15px; }
 
 .h3-galeria {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: segoe ui;
   text-align: center;
   font-size: 20px; }
 
 p {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: verdana;
   text-align: justify;
   text-align: center;
   margin: 20px; }
@@ -62,11 +95,6 @@ a {
   padding: 6px;
   cursor: pointer;
   transform: skewY(20deg); }
-
-/* Llamamos a los href del footer para estilizarlos */
-footer a {
-  text-decoration: none;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 /* Centramos imagenes de las secciones */
 .index-img {
@@ -117,15 +145,18 @@ footer a {
   color: white;
   padding: 20px;
   /* Margin-top para que no se sobreponga a los videos de secciones */
-  margin-top: 15px; }
-
-/* ICONOS FOOTER */
-.social-icon {
-  color: white;
-  margin: 20px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 30px; }
+  margin-top: 15px;
+  /* Llamamos a los href del footer para estilizarlos */
+  /* ICONOS FOOTER */ }
+  #footer footer a {
+    text-decoration: none;
+    font-family: segoe ui; }
+  #footer .social-icon {
+    color: white;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px; }
 
 /* Llamamos y damos forma a nuestro FORMULARIO */
 .form {
@@ -199,18 +230,6 @@ textarea {
   max-height: 200px;
   max-width: 100%; }
 
-#boton, #reset {
-  background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px; }
-
-#boton {
-  margin-top: 15px;
-  cursor: pointer; }
-
-#reset:hover {
-  cursor: pointer; }
-
 /* Estilizamos la tabla dentro de NOMINACIONES */
 .tabla {
   margin-left: 25%;
@@ -220,14 +239,12 @@ textarea {
   width: 50%;
   margin-bottom: 20px;
   border: 1px solid black; }
-
-th {
-  letter-spacing: 5px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-td {
-  letter-spacing: 1px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .tabla th {
+    letter-spacing: 5px;
+    font-family: verdana; }
+  .tabla td {
+    letter-spacing: 1px;
+    font-family: verdana; }
 
 /* HACEMOS RESPONSIVE EL SITIO */
 /* VISTA MOBILE */
@@ -258,8 +275,8 @@ td {
     font-size: 11px; }
   #footer {
     font-size: 12px; }
-  .social-icon {
-    font-size: 18px; }
+    #footer .social-icon {
+      font-size: 18px; }
   /*DISCOGRAFÍA */
   .parrafo-discografia {
     text-align: center;
@@ -270,11 +287,11 @@ td {
   /* ESTILIZAMOS ALBUMS */
   .album-play {
     display: block; }
-  .album-play-1, .album-play-2, .album-play-3, .album-play-4 {
-    margin-right: 10px;
-    margin-left: 15px;
-    width: 300%;
-    margin-bottom: 20px; }
+    .album-play .album-play-1, .album-play .album-play-2, .album-play .album-play-3, .album-play .album-play-4 {
+      margin-right: 10px;
+      margin-left: 15px;
+      width: 300%;
+      margin-bottom: 20px; }
   /* NOMINACIONES */
   .parrafo-nominaciones {
     text-align: center;
@@ -445,9 +462,9 @@ td {
     font-size: 14px; }
   #footer {
     font-size: 18px; }
+    #footer .social-icon {
+      font-size: 24px; }
   /* ICONOS DE REDES SOCIALES */
-  .social-icon {
-    font-size: 24px; }
   /* DISCOGRAFÍA */
   .parrafo-discografia {
     text-align: center;

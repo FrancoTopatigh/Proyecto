@@ -1,0 +1,18 @@
+@import "../variables/variables";
+
+// Mixin para boton dentro de formulario en contacto.html
+@mixin form {
+    background-color: #759eff;
+    border: 1px solid black;;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#boton{
+    @include form()
+
+}
+
+#reset{
+    @include form();
+}

@@ -1,10 +1,16 @@
 @import "variables/variables";
 @import "sass2/extend";
 @import "sass2/mixins";
-@import "sass2/maps";
 @import "partials/footer";
 @import "partials/header";
 @import "partials/section";
+
+$celeste: #759eff;
+$font-1: verdana;
+$font-2: segoe ui;
+$alinear-centro: center;
+$bg-color:black;
+$border: 1px solid black;
 
 /* Reestablecemos valores CSS desde el inicio */
 
@@ -18,6 +24,21 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.8;
+
+    h1 {
+        font-family: $font-1;
+        background-color: $bg-color;
+        color: white;
+    }
+    
+    h2 {
+        font-family: $font-1;
+        text-align: center;
+        background-color: $celeste;
+        padding: 15px;
+        border: 20px;
+        font-weight: bold;
+    }
 }
 
   /* BOOTSTRAP */
@@ -31,43 +52,29 @@ body {
 #header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
+
+    li a:hover {
+        background-color: $celeste;
+    }
+    
+    header {
+        background-color: $bg-color;
+        color: white;
+        font-size: 15px;
+    }
 }
 
-li a:hover {
-    background-color: #759eff;
-}
-
-header {
-    background-color: black;
-    color: white;
-    font-size: 15px;
-}
-
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: white;
-}
-
-h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    background-color: #759eff;
-    padding: 15px;
-    border: 20px;
-    font-weight: bold;
-}
 
 .h3-galeria {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
+    font-family: $font-2;
+    text-align: $alinear-centro;
     font-size: 20px;
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: $font-1;
     text-align: justify;
-    text-align: center;
+    text-align: $alinear-centro;
     margin: 20px;
 }
 
@@ -78,19 +85,13 @@ a {
 
 .form-contact {
     background-image: linear-gradient(to left, #759eff, white, #759eff, white, #759eff);
-    border: 1px solid black;
+    border: $border;
     color: black;
     padding: 6px;
     cursor: pointer;
     transform: skewY(20deg);
 }
 
-  /* Llamamos a los href del footer para estilizarlos */
-
-footer a {
-    text-decoration: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
   /* Centramos imagenes de las secciones */
 
@@ -145,23 +146,31 @@ footer a {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: $bg-color;
     color: white;
     padding: 20px;
 
     /* Margin-top para que no se sobreponga a los videos de secciones */
     margin-top: 15px;
+
+      /* Llamamos a los href del footer para estilizarlos */
+
+    footer a {
+        text-decoration: none;
+        font-family: $font-2;
+    }
+
+      /* ICONOS FOOTER */
+
+        .social-icon {
+        color: white;
+        margin: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 30px;
+}
 }
 
-  /* ICONOS FOOTER */
-
-.social-icon {
-    color: white;
-    margin: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
-}
 
   /* Llamamos y damos forma a nuestro FORMULARIO */
 
@@ -214,7 +223,7 @@ form {
     background: white;
     padding: 10px 20px;
     margin-top: 20px;
-    border: 1px solid black;
+    border: $border;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 30px;
 }
@@ -250,20 +259,8 @@ textarea {
     max-width: 100%;
 }
 
-#boton, #reset {
-    background-color: #759eff;
-    border: 1px solid black;
-    padding: 10px;
-}
 
-#boton {
-    margin-top: 15px;
-    cursor: pointer;
-}
 
-#reset:hover {
-    cursor: pointer;
-}
 
   /* Estilizamos la tabla dentro de NOMINACIONES */
 
@@ -274,18 +271,20 @@ textarea {
     font-size: 15px;
     width: 50%;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: $border;
+
+    th {
+        letter-spacing: 5px;
+        font-family: $font-1;
+    }
+
+    td {
+        letter-spacing: 1px;
+        font-family: $font-1;
+    }
 }
 
-th {
-    letter-spacing: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
-td {
-    letter-spacing: 1px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
   /* HACEMOS RESPONSIVE EL SITIO */
 
@@ -330,11 +329,12 @@ td {
 
     #footer {
     font-size: 12px;
-    }
 
     .social-icon {
-    font-size: 18px;
+        font-size: 18px;
+        }
     }
+
 
     /*DISCOGRAFÍA */
 
@@ -350,14 +350,15 @@ td {
 
     .album-play {
     display: block;
-    }
 
     .album-play-1, .album-play-2, .album-play-3, .album-play-4 {
-    margin-right: 10px;
-    margin-left: 15px;
-    width: 300%;
-    margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 15px;
+        width: 300%;
+        margin-bottom: 20px;
+        }
     }
+
 
     /* NOMINACIONES */
 
@@ -613,13 +614,14 @@ td {
 
     #footer {
     font-size: 18px;
-    }
+    
+    .social-icon {
+        font-size: 24px;
+        }
+}
 
     /* ICONOS DE REDES SOCIALES */
 
-    .social-icon {
-    font-size: 24px;
-    }
 
     /* DISCOGRAFÍA */
 
