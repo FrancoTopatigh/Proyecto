@@ -1,2 +1,13 @@
 @import "../variables/variables";
 
+/* Parrafo de INICIO */
+@mixin parrafo-1 {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.parrafo-1{
+    @include parrafo-1()
+}
