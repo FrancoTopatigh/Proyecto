@@ -1,2 +1,20 @@
 @import "../variables/variables";
 
+// BOTONES DENTRO DE CONTACTO.HTML
+.botones{
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+#boton{
+    @extend .botones;
+    background-color: #759eff;
+    border: 1px solid black;;
+}
+
+#reset1{
+    @extend .botones;
+    background-color: #759eff;
+    border: 1px solid black;;
+}

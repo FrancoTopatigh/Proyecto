@@ -1,45 +1,42 @@
 @charset "UTF-8";
-#boton {
-  background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer;
-  color: black; }
-
-#reset1 {
-  background-color: #759eff;
-  border: 1px solid black;
+.botones, #boton, #reset1 {
   padding: 10px;
   cursor: pointer;
   color: black; }
 
 #boton {
   background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer;
-  color: black; }
+  border: 1px solid black; }
 
 #reset1 {
   background-color: #759eff;
-  border: 1px solid black;
+  border: 1px solid black; }
+
+.botones, #boton, #reset1 {
   padding: 10px;
   cursor: pointer;
   color: black; }
 
 #boton {
   background-color: #759eff;
-  border: 1px solid black;
+  border: 1px solid black; }
+
+#reset1 {
+  background-color: #759eff;
+  border: 1px solid black; }
+
+.botones, #boton, #reset1 {
   padding: 10px;
   cursor: pointer;
   color: black; }
 
+#boton {
+  background-color: #759eff;
+  border: 1px solid black; }
+
 #reset1 {
   background-color: #759eff;
-  border: 1px solid black;
-  padding: 10px;
-  cursor: pointer;
-  color: black; }
+  border: 1px solid black; }
 
 /* Reestablecemos valores CSS desde el inicio */
 * {
