@@ -249,21 +249,27 @@ textarea {
   max-height: 200px;
   max-width: 100%; }
 
-/* Estilizamos la tabla dentro de NOMINACIONES */
+/* TABLA DENTRO DENOMINACIONES */
 .tabla {
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   text-decoration: none;
   text-align: center;
   font-size: 15px;
   width: 50%;
   margin-bottom: 20px;
-  border: 1px solid black; }
+  font-family: verdana; }
   .tabla th {
     letter-spacing: 5px;
-    font-family: verdana; }
+    font-family: verdana;
+    padding: 8px;
+    background-color: black;
+    color: white; }
   .tabla td {
     letter-spacing: 1px;
-    font-family: verdana; }
+    font-family: verdana;
+    padding: 8px;
+    border: 1px solid black; }
 
 /* HACEMOS RESPONSIVE EL SITIO */
 /* VISTA MOBILE */

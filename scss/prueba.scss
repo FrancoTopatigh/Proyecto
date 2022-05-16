@@ -255,25 +255,31 @@ textarea {
 
 
 
-  /* Estilizamos la tabla dentro de NOMINACIONES */
+  /* TABLA DENTRO DENOMINACIONES */
 
 .tabla {
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     text-align: center;
     font-size: 15px;
     width: 50%;
     margin-bottom: 20px;
-    border: $border;
+    font-family: $font-1;
 
     th {
         letter-spacing: 5px;
         font-family: $font-1;
+        padding: 8px;
+        background-color: $bg-color;
+        color: white;
     }
 
     td {
         letter-spacing: 1px;
         font-family: $font-1;
+        padding: 8px;
+        border: $border;
     }
 }
 
